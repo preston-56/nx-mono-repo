@@ -4,8 +4,12 @@ import styles from './app.module.css';
 import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
+import {range} from '@org/utils'
+
 
 export function App() {
+  console.log(range(40,45));
+  
   return (
     <div>
       <NxWelcome title="admin" />
